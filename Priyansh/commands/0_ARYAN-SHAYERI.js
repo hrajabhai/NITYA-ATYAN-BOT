@@ -2,9 +2,9 @@ module.exports.config = {
   name: "sayeri",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "ARYAN",
-  description: "THIS BOT IS MADE BY ARYAN",
-  commandCategory: "ARYAN-STATUS",
+  credits: "AMAN",
+  description: "THIS BOT IS MADE BY AMAN",
+  commandCategory: "AMAN-STATUS",
   usages: "SAYERI",
   cooldowns: 2,
   dependencies: {
