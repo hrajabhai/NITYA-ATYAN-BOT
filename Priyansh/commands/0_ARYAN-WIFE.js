@@ -2,7 +2,7 @@ module.exports.config = {
     name: "wife",
     version: "7.3.1",
     hasPermssion: 0,
-    credits: "ARYAN",///don't change my Credit Coz i Edit 
+    credits: "AMAN",///don't change my Credit Coz i Edit 
     description: "Get Pair From Mention",
     commandCategory: "img",
     usages: "[@mention]",
