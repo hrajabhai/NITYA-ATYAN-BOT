@@ -2,8 +2,8 @@ module.exports.config = {
   name: "dp2",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "ARYAN",
-  description: "THIS BOT IS MADE BY ARYAN",
+  credits: "AMAN",
+  description: "THIS BOT IS MADE BY AMAN",
   commandCategory: "PROFILE DP 2",
   usages: "SELF DP AND MENTION",
   dependencies: {
