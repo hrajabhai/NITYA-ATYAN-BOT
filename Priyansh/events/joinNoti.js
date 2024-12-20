@@ -31,7 +31,7 @@ module.exports.run = async function({ api, event }) {
         if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
                 api.changeNickname(`{ ${global.config.PREFIX} } × ${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
                 const fs = require("fs");
-                return api.sendMessage("JAY SERIIBRAM💖💖 Everyone🥀🥀", event.threadID, () => api.sendMessage({body:`🌺𝐀M𝐀𝐍🦋🌺 CONNECTED«
+                return api.sendMessage("JAY SERII RAM💖💖 Everyone🥀🥀", event.threadID, () => api.sendMessage({body:`🌺𝐀M𝐀𝐍🦋🌺 CONNECTED«
 
 💐𝐁𝐎𝐓 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐌𝐑. 𝐀M𝐀𝐍💐
 <------------------------------>  
@@ -43,7 +43,7 @@ module.exports.run = async function({ api, event }) {
 💐𝐌𝐄𝐑𝐄 𝐂𝐎𝐌𝐌À𝐍𝐃 𝐃𝐄𝐊𝐇𝐍𝐄 𝐊 𝐋𝐈𝐘𝐄 À𝐏 𝐇𝐄𝐋𝐏 𝐊𝐀 𝐔𝐒𝐄 𝐊𝐀𝐑 𝐒𝐊𝐓𝐄 𝐇𝐀𝐈💐 
 \n\nUse ${global.config.PREFIX}help to see commands.\n\nexample :\n${global.config.PREFIX}video7 (video songs)\n${global.config.PREFIX}music (audio songs)\n${global.config.PREFIX}help2 (command list)\n${global.config.PREFIX}info 
 <<<<<------------------------------>>>>>
-💐𝐊𝐈𝐒𝐈 𝐁𝐇𝐈  𝐢𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 𝐊 𝐋𝐈𝐘𝐄 𝐀𝐏 𝐌𝐄4𝐄 𝐁𝐎𝐒𝐒 𝐀𝐑𝐘𝐀𝐍 𝐒𝐄 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐊𝐀𝐑 𝐒𝐊𝐓𝐄 𝐇💐
+💐𝐊𝐈𝐒𝐈 𝐁𝐇𝐈  𝐢𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 𝐊 𝐋𝐈𝐘𝐄 𝐀𝐏 𝐌𝐄4𝐄 𝐁𝐎𝐒𝐒 𝐀M𝐀𝐍 𝐒𝐄 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐊𝐀𝐑 𝐒𝐊𝐓𝐄 𝐇💐
 
 💐𝐎𝐖𝐍𝐄𝐑💐: 𝐌𝐑.𝐀MA𝐍
 
