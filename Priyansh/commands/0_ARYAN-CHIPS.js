@@ -3,7 +3,7 @@ module.exports.config = {
         name: "chips",
     version: "1.0.1",
         hasPermssion: 0,
-        credits: "ARYAN", 
+        credits: "AMAN", 
         description: "hihihihi",
         commandCategory: "no prefix",
         usages: "Chips",
@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         var { threadID, messageID } = event;
         if (event.body.indexOf("chips")==0 || event.body.indexOf("Chips")==0 || event.body.indexOf("CHIPS ")==0 || event.body.indexOf("Chipas")==0) {
                 var msg = {
-                                body: "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐀𝐑𝐘𝐀𝐍💐\n_______________________\n\n𝐘𝐚𝐚 𝐋𝐨𝐨 𝐁𝐚𝐁𝐲 𝐜𝐇𝐚𝐔𝐦𝐈𝐧 \n_______________________",
+                                body: "=𝐎𝐰𝐧𝐞𝐫 ➻  💐𝐀MAN💐\n_______________________\n\n𝐘𝐚𝐚 𝐋𝐨𝐨 𝐁𝐚𝐁𝐲 𝐜𝐇𝐚𝐔𝐦𝐈𝐧 \n_______________________",
                                 attachment: fs.createReadStream(__dirname + `/noprefix/Pinterest-mini-aesthetics-snack-party.mp4`)
                         }
                         api.sendMessage(msg, threadID, messageID);
