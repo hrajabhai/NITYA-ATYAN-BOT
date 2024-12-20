@@ -2,7 +2,7 @@ module.exports.config = {
   name: "boy sad dp",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "ARYAN",
+  credits: "AMAN",
   description: "boys sad dp",
   commandCategory: "Random-IMG",
   usages: "boy sad dp",
