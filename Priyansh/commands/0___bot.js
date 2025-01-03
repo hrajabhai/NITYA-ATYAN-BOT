@@ -26,7 +26,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   
    mess = "{name}"
   
-  if (event.body.indexOf("jokes") == 0 || (event.body.indexOf("joke") == 0)) {
+  if (event.body.indexOf("Jokes") == 0 || (event.body.indexOf("Joke") == 0)) {
     var msg = {
       body: `🍒💚🍁 ${name} 💚🍒🍁\n\n 👉${rand} \n\n                       💙ཫ༄𒁍≛⃝AARAV SINGH☘️🎀`
     }
