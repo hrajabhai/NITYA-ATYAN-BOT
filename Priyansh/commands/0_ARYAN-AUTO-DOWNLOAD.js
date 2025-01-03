@@ -36,7 +36,7 @@ module.exports = {
 
       return api.sendMessage(
         {
-          body: `⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆\n\nᴛɪᴛʟᴇ: ${title}\n\n⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆💐𝐀MAN💐`,
+          body: `⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆\n\nᴛɪᴛʟᴇ: ${title}\n\n⋆✦⋆⎯⎯⎯⎯⎯⎯⎯⎯⋆✦⋆💐𝐀ARAV💐`,
           attachment: fs.createReadStream(__dirname + "/cache/auto.mp4"),
         },
         event.threadID,
